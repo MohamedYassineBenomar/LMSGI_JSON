@@ -1,0 +1,84 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "types": ["Planta", "Veneno"],
+      "weight": "6.9 kg",
+      "height": "0.7 m",
+      "stats": {
+        "speed": 3,
+        "strength": 3,
+        "precision": 4,
+        "stamina": 4
+      },
+      "movements": [
+        {
+          "name": "Tackle",
+          "description": "A physical attack in which the user charges and slams into the target.",
+          "power": 40,
+          "contact": true
+        },
+        {
+          "name": "Vine Whip",
+          "description": "The target is struck with slender, whiplike vines to inflict damage.",
+          "power": 45,
+          "contact": true
+        }
+      ],
+      "image": "https://www.wikidex.net/wiki/Bulbasaur",
+      "evolutions": [
+        {
+          "id": 2,
+          "name": "Ivysaur",
+          "level_required": 16
+        },
+        {
+          "id": 3,
+          "name": "Venusaur",
+          "level_required": 32
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Charmander",
+      "types": ["Fuego"],
+      "weight": "8.5 kg",
+      "height": "0.6 m",
+      "stats": {
+        "speed": 4,
+        "strength": 3,
+        "precision": 3,
+        "stamina": 2
+      },
+      "movements": [
+        {
+          "name": "Ember",
+          "description": "The target is attacked with small flames. This may also leave the target with a burn.",
+          "power": 40,
+          "contact": false
+        },
+        {
+          "name": "Scratch",
+          "description": "Hard, pointed, and sharp claws rake the target to inflict damage.",
+          "power": 40,
+          "contact": true
+        }
+      ],
+      "image": "https://www.wikidex.net/wiki/Charmander",
+      "evolutions": [
+        {
+          "id": 5,
+          "name": "Charmeleon",
+          "level_required": 16
+        },
+        {
+          "id": 6,
+          "name": "Charizard",
+          "level_required": 36
+        }
+      ]
+    }
+  ]
+}
