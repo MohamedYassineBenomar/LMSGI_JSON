@@ -1,0 +1,31 @@
+{
+  "pokemon": {
+    "name": "Bulbasaur",
+    "generation": "Primera",
+    "category": "Semilla",
+    "types": ["Planta", "Veneno"],
+    "abilities": {
+      "main": "Espesura",
+      "hidden": "Clorofila"
+    },
+    "stats": {
+      "weight": "6.9 kg",
+      "height": "0.7 m",
+      "gender_distribution": {
+        "male": "87.5%",
+        "female": "12.5%"
+      },
+      "color": "Verde"
+    },
+    "egg_groups": ["Monstruo", "Planta"],
+    "pokéathlon": {
+      "speed": 3,
+      "strength": 3,
+      "precision": 4,
+      "stamina": 4,
+      "jump": 3,
+      "total": 17,
+      "average": 3.4
+    }
+  }
+}
